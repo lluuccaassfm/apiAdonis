@@ -18,10 +18,6 @@ class AuthController {
 
     return token
   }
-
-  index(){
-    return 'Hello word!'
-  }
 }
 
 module.exports = AuthController
